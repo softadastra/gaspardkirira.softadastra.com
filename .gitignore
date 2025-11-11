@@ -51,12 +51,6 @@ text.txt
 cmd.txt
 
 # ======================================================
-# 🧪 Local scripts and tools
-# ======================================================
-scripts/changelog-release.sh
-scripts/update_changelog.sh
-
-# ======================================================
 # 🔧 Local test & reference builds
 # ======================================================
 build-ref/
