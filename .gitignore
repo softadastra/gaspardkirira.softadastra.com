@@ -1,65 +1,6 @@
-# ======================================================
-# 🧱 Build and temporary files
-# ======================================================
-build/
-build-*/
-*.o
-*.obj
-*.lo
-*.slo
-*.lai
-*.la
-*.a
-*.lib
-*.so
-*.dylib
-*.dll
-*.exe
-*.out
-*.app
-*.gch
-*.pch
-*.dwo
-*.d
-
-# ======================================================
-# 🧠 IDEs and editors
-# ======================================================
-.vscode/
-.idea/
-*.swp
-*.swo
-*.bak
-*.tmp
-
-# ======================================================
-# 🧰 Generated configs
-# ======================================================
-compile_commands.json
-CMakeCache.txt
-CMakeFiles/
-cmake_install.cmake
-
-# ======================================================
-# 🧾 Logs and diagnostics
-# ======================================================
-*.log
-vix.log
-text.md
+node_modules/
+.vitepress/cache/
+.vitepress/dist/
 cmd.md
-text.txt
-cmd.txt
-
-# ======================================================
-# 🔧 Local test & reference builds
-# ======================================================
-build-ref/
-build-rel/
-hello_server
-/hello_world/
-
-# Keep only CMake package config template
-cmake/*
-!cmake/VixConfig.cmake.in
-*.bak
+docs-guides.md
 
