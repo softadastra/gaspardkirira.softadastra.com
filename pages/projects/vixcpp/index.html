@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Vix.cpp — A Modern C++ Runtime by Gaspard Kirira</title>
+    <meta
+      name="description"
+      content="Vix.cpp is a modern C++ runtime created by Gaspard Kirira for building fast and reliable applications with a clearer project workflow."
+    />
+    <meta name="author" content="Gaspard Kirira" />
+    <meta name="robots" content="index, follow" />
+    <link
+      rel="canonical"
+      href="https://gaspardkirira.softadastra.com/pages/projects/vixcpp/"
+    />
+
+    <meta property="og:type" content="article" />
+    <meta
+      property="og:title"
+      content="Vix.cpp — A Modern C++ Runtime by Gaspard Kirira"
+    />
+    <meta
+      property="og:description"
+      content="Vix.cpp is a modern C++ runtime for building fast and reliable applications."
+    />
+    <meta
+      property="og:url"
+      content="https://gaspardkirira.softadastra.com/pages/projects/vixcpp/"
+    />
+    <meta property="og:site_name" content="Gaspard Kirira" />
+    <meta
+      property="og:image"
+      content="https://gaspardkirira.softadastra.com/assets/img/gaspard-kirira-og.jpg"
+    />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Vix.cpp — A Modern C++ Runtime by Gaspard Kirira"
+    />
+    <meta
+      name="twitter:description"
+      content="Vix.cpp is a modern C++ runtime for building fast and reliable applications."
+    />
+    <meta
+      name="twitter:image"
+      content="https://gaspardkirira.softadastra.com/assets/img/gaspard-kirira-og.jpg"
+    />
+
+    <link rel="icon" href="/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/icons/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/icons/favicon-32x32.png"
+    />
+    <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <link rel="stylesheet" href="/assets/css/main.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareSourceCode",
+        "@id": "https://gaspardkirira.softadastra.com/pages/projects/vixcpp/#vixcpp",
+        "name": "Vix.cpp",
+        "description": "A modern C++ runtime for building fast and reliable applications.",
+        "programmingLanguage": "C++",
+        "codeRepository": "https://github.com/vixcpp/vix",
+        "url": "https://gaspardkirira.softadastra.com/pages/projects/vixcpp/",
+        "creator": {
+          "@type": "Person",
+          "@id": "https://gaspardkirira.softadastra.com/#gaspard-kirira",
+          "name": "Gaspard Kirira",
+          "url": "https://gaspardkirira.softadastra.com/"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Softadastra",
+          "url": "https://softadastra.com/"
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Gaspard Kirira home">
+        <img
+          src="/assets/img/gaspard-kirira-192.png"
+          alt=""
+          class="brand__avatar"
+          width="40"
+          height="40"
+        />
+        <span class="brand__text">Gaspard Kirira</span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-label="Open navigation"
+        aria-expanded="false"
+        data-nav-toggle
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" aria-label="Main navigation" data-site-nav>
+        <a href="/pages/projects/vixcpp/" aria-current="page">Vix.cpp</a>
+        <a href="/pages/softadastra/">Softadastra</a>
+        <a href="/pages/writing/">Writing</a>
+        <a href="https://github.com/GaspardKirira" rel="me">GitHub</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero__content">
+          <p class="eyebrow">Project</p>
+
+          <h1>Vix.cpp</h1>
+
+          <p class="hero__lead">
+            A modern C++ runtime for building fast and reliable applications.
+          </p>
+
+          <p class="hero__text">
+            Vix.cpp exists because C++ projects need more than source files and
+            a build command when they begin to grow. A serious project needs
+            structure, dependency discipline, reproducible builds, clear modules
+            and diagnostics that help the developer understand what is happening
+            before the project becomes fragile.
+          </p>
+
+          <div class="hero__actions">
+            <a
+              class="button button--primary"
+              href="https://github.com/vixcpp/vix"
+              >View on GitHub</a
+            >
+            <a class="button button--secondary" href="/">Back to profile</a>
+          </div>
+        </div>
+
+        <div class="hero__media">
+          <img
+            src="/assets/img/vixcpp-logo.svg"
+            alt="Vix.cpp logo"
+            width="520"
+            height="520"
+          />
+        </div>
+      </section>
+
+      <section class="section section--split">
+        <div>
+          <p class="eyebrow">Purpose</p>
+          <h2>Why Vix.cpp exists</h2>
+        </div>
+
+        <div class="section__body">
+          <p>
+            C++ gives developers control, performance and long-term stability,
+            but the project workflow around the language can become difficult to
+            manage. Dependencies are often installed differently on each
+            machine, CMake configuration can become hard to reason about, and
+            teams lose time fixing build problems instead of improving the
+            application.
+          </p>
+
+          <p>
+            Vix.cpp is built around the idea that a C++ project should have a
+            clear local workflow. The developer should be able to create a
+            project, declare its modules, install dependencies, build it, test
+            it and diagnose its environment without turning the project into a
+            collection of disconnected scripts.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section__header">
+          <p class="eyebrow">Workflow</p>
+          <h2>A local workflow for C++ applications</h2>
+        </div>
+
+        <div class="project-list">
+          <article class="project-item">
+            <h3>Create</h3>
+            <p>
+              Start a C++ application from a known project structure instead of
+              assembling the layout manually each time.
+            </p>
+          </article>
+
+          <article class="project-item">
+            <h3>Declare</h3>
+            <p>
+              Describe the application, its modules, sources, resources, links
+              and dependencies through Vix project files.
+            </p>
+          </article>
+
+          <article class="project-item">
+            <h3>Install</h3>
+            <p>
+              Resolve and install dependencies with a lockfile so the project
+              can be restored more predictably.
+            </p>
+          </article>
+
+          <article class="project-item">
+            <h3>Build</h3>
+            <p>
+              Build the application through a workflow that keeps the project
+              model and the generated build system connected.
+            </p>
+          </article>
+
+          <article class="project-item">
+            <h3>Diagnose</h3>
+            <p>
+              Use diagnostics to understand configuration, dependency and
+              environment problems before they become release issues.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--split">
+        <div>
+          <p class="eyebrow">Commands</p>
+          <h2>Minimal command flow</h2>
+        </div>
+
+        <div class="section__body">
+          <p>
+            The Vix workflow is designed to stay close to the terminal. The goal
+            is not to hide the C++ toolchain, but to make the project easier to
+            operate from one consistent entry point.
+          </p>
+
+          <pre><code>vix init my-app
+cd my-app
+
+vix add rix/rix
+vix install
+vix build
+vix test
+vix doctor</code></pre>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section__header">
+          <p class="eyebrow">Direction</p>
+          <h2>Part of the Softadastra tooling ecosystem</h2>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Vix.cpp</h3>
+            <p>
+              The local runtime and project workflow for C++ applications. It
+              focuses on project structure, modules, dependencies, builds and
+              diagnostics.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Rix</h3>
+            <p>
+              The unified userland library layer for Vix.cpp. It provides common
+              building blocks that make application code more consistent across
+              Vix projects.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Softadastra Cloud</h3>
+            <p>
+              The project operations platform for C++ teams using Vix. Vix works
+              locally, while Softadastra Cloud organizes the team layer around
+              projects, packages, lockfiles and reports.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--cta">
+        <p class="eyebrow">Creator</p>
+        <h2>Created by Gaspard Kirira</h2>
+        <p>
+          Vix.cpp is created by Gaspard Kirira as part of Softadastra’s work on
+          modern C++ tooling. The project is developed with a focus on practical
+          workflows, readable structure and long-term reliability.
+        </p>
+        <a class="button button--secondary" href="/">View official profile</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span data-year></span> Gaspard Kirira. Official profile page.</p>
+
+      <nav aria-label="Footer navigation">
+        <a href="/">Home</a>
+        <a href="https://github.com/vixcpp/vix">Vix.cpp GitHub</a>
+        <a href="https://github.com/GaspardKirira" rel="me">GitHub</a>
+      </nav>
+    </footer>
+
+    <script src="/assets/js/main.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Writing — Gaspard Kirira</title>
+    <meta
+      name="description"
+      content="Technical writing by Gaspard Kirira about C++, tooling, software architecture, Vix.cpp and the work behind Softadastra."
+    />
+    <meta name="author" content="Gaspard Kirira" />
+    <meta name="robots" content="index, follow" />
+    <link
+      rel="canonical"
+      href="https://gaspardkirira.softadastra.com/pages/writing/"
+    />
+
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Writing — Gaspard Kirira" />
+    <meta
+      property="og:description"
+      content="Technical writing by Gaspard Kirira about C++, tooling, software architecture, Vix.cpp and Softadastra."
+    />
+    <meta
+      property="og:url"
+      content="https://gaspardkirira.softadastra.com/pages/writing/"
+    />
+    <meta property="og:site_name" content="Gaspard Kirira" />
+    <meta
+      property="og:image"
+      content="https://gaspardkirira.softadastra.com/assets/img/gaspard-kirira-og.jpg"
+    />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Writing — Gaspard Kirira" />
+    <meta
+      name="twitter:description"
+      content="Technical writing by Gaspard Kirira about C++, tooling, software architecture, Vix.cpp and Softadastra."
+    />
+    <meta
+      name="twitter:image"
+      content="https://gaspardkirira.softadastra.com/assets/img/gaspard-kirira-og.jpg"
+    />
+
+    <link rel="icon" href="/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/icons/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/icons/favicon-32x32.png"
+    />
+    <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <link rel="stylesheet" href="/assets/css/main.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "@id": "https://gaspardkirira.softadastra.com/pages/writing/#writing",
+        "url": "https://gaspardkirira.softadastra.com/pages/writing/",
+        "name": "Writing — Gaspard Kirira",
+        "description": "Technical writing by Gaspard Kirira about C++, tooling, software architecture, Vix.cpp and Softadastra.",
+        "author": {
+          "@type": "Person",
+          "@id": "https://gaspardkirira.softadastra.com/#gaspard-kirira",
+          "name": "Gaspard Kirira",
+          "url": "https://gaspardkirira.softadastra.com/"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Softadastra",
+          "url": "https://softadastra.com/"
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Gaspard Kirira home">
+        <img
+          src="/assets/img/gaspard-kirira-192.png"
+          alt=""
+          class="brand__avatar"
+          width="40"
+          height="40"
+        />
+        <span class="brand__text">Gaspard Kirira</span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-label="Open navigation"
+        aria-expanded="false"
+        data-nav-toggle
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" aria-label="Main navigation" data-site-nav>
+        <a href="/pages/projects/vixcpp/">Vix.cpp</a>
+        <a href="/pages/softadastra/">Softadastra</a>
+        <a href="/pages/writing/" aria-current="page">Writing</a>
+        <a href="https://github.com/GaspardKirira" rel="me">GitHub</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero__content">
+          <p class="eyebrow">Writing</p>
+
+          <h1>Technical writing</h1>
+
+          <p class="hero__lead">
+            Notes on C++, tooling, software architecture and the work behind
+            Softadastra.
+          </p>
+
+          <p class="hero__text">
+            This page collects writing by Gaspard Kirira about the problems that
+            appear when software projects grow: project structure, dependency
+            discipline, build reliability, diagnostics, runtime design and the
+            engineering decisions behind Vix.cpp and Softadastra.
+          </p>
+
+          <div class="hero__actions">
+            <a class="button button--primary" href="/pages/projects/vixcpp/"
+              >Read about Vix.cpp</a
+            >
+            <a class="button button--secondary" href="/">Back to profile</a>
+          </div>
+        </div>
+
+        <div class="hero__media">
+          <img
+            src="/assets/img/gaspard-kirira.png"
+            alt="Gaspard Kirira"
+            width="520"
+            height="520"
+          />
+        </div>
+      </section>
+
+      <section class="section section--split">
+        <div>
+          <p class="eyebrow">Purpose</p>
+          <h2>Why I write</h2>
+        </div>
+
+        <div class="section__body">
+          <p>
+            Building developer tools requires more than writing code. Each
+            command, file format and workflow decision carries a position about
+            how developers should understand their projects. Writing helps make
+            those decisions clear before they become hidden inside the
+            implementation.
+          </p>
+
+          <p>
+            The focus here is practical. The goal is to explain what is being
+            built, why it matters, and how the ideas connect to real C++
+            projects. The writing should help developers understand the
+            direction of Vix.cpp and Softadastra without turning the work into
+            marketing language.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section__header">
+          <p class="eyebrow">Topics</p>
+          <h2>Main areas of writing</h2>
+        </div>
+
+        <div class="project-list">
+          <article class="project-item">
+            <h3>C++ tooling</h3>
+            <p>
+              How project structure, modules, dependency management and build
+              workflows affect the reliability of C++ applications.
+            </p>
+          </article>
+
+          <article class="project-item">
+            <h3>Vix.cpp</h3>
+            <p>
+              Notes about the design of Vix.cpp, its runtime direction, its
+              module model and the workflow it gives to C++ developers.
+            </p>
+          </article>
+
+          <article class="project-item">
+            <h3>Softadastra Cloud</h3>
+            <p>
+              Thoughts on project operations for C++ teams, including private
+              registries, lockfile history, build reports, diagnostics and
+              permissions.
+            </p>
+          </article>
+
+          <article class="project-item">
+            <h3>Software architecture</h3>
+            <p>
+              Practical reflections on how applications are organized, how
+              systems grow, and how technical choices become easier or harder to
+              maintain over time.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section__header">
+          <p class="eyebrow">Current notes</p>
+          <h2>Writing direction</h2>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Why C++ projects need operational discipline</h3>
+            <p>
+              A note about the build, dependency and environment problems that
+              appear when a C++ project moves from a personal project to a
+              serious codebase.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Vix.cpp as a local project workflow</h3>
+            <p>
+              A note about why Vix.cpp focuses on the local developer workflow
+              instead of trying to replace the whole C++ ecosystem.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Softadastra Cloud and team visibility</h3>
+            <p>
+              A note about why C++ teams need shared visibility over packages,
+              lockfiles, diagnostics, build reports and project state.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--cta">
+        <p class="eyebrow">Next step</p>
+        <h2>Start with the project pages</h2>
+        <p>
+          The writing section will grow around the same direction as the tools:
+          practical C++ development, reliable project workflows and the
+          discipline needed to maintain software over time.
+        </p>
+        <a class="button button--secondary" href="/pages/projects/vixcpp/"
+          >View Vix.cpp</a
+        >
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span data-year></span> Gaspard Kirira. Official profile page.</p>
+
+      <nav aria-label="Footer navigation">
+        <a href="/">Home</a>
+        <a href="/pages/projects/vixcpp/">Vix.cpp</a>
+        <a href="/pages/softadastra/">Softadastra</a>
+        <a href="https://github.com/GaspardKirira" rel="me">GitHub</a>
+      </nav>
+    </footer>
+
+    <script src="/assets/js/main.js" defer></script>
+  </body>
+</html>
